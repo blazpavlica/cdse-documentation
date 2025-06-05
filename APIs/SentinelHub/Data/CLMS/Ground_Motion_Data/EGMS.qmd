@@ -1,0 +1,7 @@
+---
+title: European ground motion service
+---
+
+## Overview
+
+Ground motion data, such as ground movements such as landslides, subsidence, and deformation, are provided across Copernicus participating countries by the European Ground Motion Service.

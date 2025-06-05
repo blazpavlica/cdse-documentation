@@ -1,0 +1,14 @@
+## Attribution and use
+
+The service is implemented by the Joint Research Centre (JRC) and the European Environment Agency (EEA) on behalf of the European Commission.
+
+## Accessing CLMS data
+
+To access data you need to send a POST request to our `process` API. The
+requested data will be returned as the response to your request. Each
+POST request can be tailored to get you exactly the data you require. To
+do this requires setting various parameters which depend on the
+collection you are querying. This chapter will help you understand the
+parameters for DEM data. To see examples of such requests go
+[here](/APIs/SentinelHub/Process/Examples/DEM.qmd), and for an overview of
+all API parameters see the [API Reference](/APIs/SentinelHub/ApiReference.qmd).

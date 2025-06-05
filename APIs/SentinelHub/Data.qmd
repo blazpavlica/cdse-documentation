@@ -15,6 +15,7 @@ listing:
     - Data/DEM.qmd
     - Data/Byoc.qmd
     - Data/DataFusion.qmd
+    - Data/CLMS.qmd
   fields: [title, description]
   sort: false
   filter-ui: false

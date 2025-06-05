@@ -1,0 +1,7 @@
+---
+title: Vegetation properties
+---
+
+## Overview
+
+Provide at global scale and for Europe vegetation related characteristics, such as fraction of green vegetation cover, fraction of the solar radiation absorbed by live plants for photosynthesis and the amount of leaf area in an ecosystem.

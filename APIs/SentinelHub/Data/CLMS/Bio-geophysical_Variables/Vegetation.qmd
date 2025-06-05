@@ -1,0 +1,9 @@
+---
+title: Vegetation
+---
+
+## Overview
+
+Whether forest, grassland, shrublands, or agricultural areas, it is safe to say that most of the European continent is covered by vegetation. Plants, just like all other living things, experience cycles of growth and decay which vary both within and in between years. These cycles are affected by environmental conditions such as temperature fluctuations, precipitation levels, wildfires, and human disturbances—factors that are becoming less predictable and more extreme in the modern era of climate change and human urbanization.
+
+The Vegetation product group offers a collection of datasets designed to provide analysis of vegetation status across the globe. It boasts a broad range of datasets—including phenology and productivity parameters (e.g., Start of Growing Season, End of Growing Season, Annual Productivity), seasonal growth trajectories (e.g., Plant Phenology Index), Vegetation Properties (e.g., Fraction of Green Vegetation Cover, Leaf Area Index, and Fraction of Absorbed Photosynthetically Active Radiation), and Vegetation Indices (e.g., Normalized Difference Vegetation Index and Plant Phenology Index), and assessments of the outcome of wildfires (e.g., Burnt Areas)—which support users in applications such as Common Agricultural Policy reporting to urban planning at the regional scale or climate change mitigation at the continental scale. The high-resolution phenology data will also allow for a much more detailed assessment of vegetation responses to disturbances like droughts, storms, wildfires, insect infestations, and human influence.

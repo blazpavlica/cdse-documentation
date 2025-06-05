@@ -1,0 +1,6 @@
+---
+title: Land surface temperature
+---
+## Overview
+
+Provides hourly land surface temperature from geostationary sensors observations. The data are available at global scale in the spatial resolution of about 5 km and covers the period from January 2021 to January 2023 with version 2.0 and from January 2023 onwards with version 2.1.
