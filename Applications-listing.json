@@ -1,0 +1,14 @@
+{
+  "listing": "/Applications.html",
+  "items": [
+    "/Applications/DataWorkspace.html",
+    "/Applications/Browser.html",
+    "/Applications/Catalogue-csv.html",
+    "/Applications/DataSpaceDashboard.html",
+    "/Applications/DisplayWall.html",
+    "/Applications/JupyterHub.html",
+    "/Applications/QGIS.html",
+    "/Applications/AlgorithmPlaza.html",
+    "/Applications/WebEditor.html"
+  ]
+}
