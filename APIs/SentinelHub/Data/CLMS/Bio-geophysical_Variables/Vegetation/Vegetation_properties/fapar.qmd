@@ -6,17 +6,17 @@ format:
         code-summary: "Code"
 ---
 
-## About Fapar Global 300M 10 Daily V1
+## About
 Quantifies the fraction of the solar radiation absorbed by live plants for photosynthesis. Every 10-days estimates are available in near real time at global scale in the spatial resolution of about 300 m from January 2014 to June 2020 based upon PROBA-V data with version 1.0 and from July 2020 onwards based upon Sentinel-3/OLCI data with version 1.1.
 
-**Link to the data in Copernicus Browser: [FAPAR](https://link.dataspace.copernicus.eu/r8ec)**
+**[View this dataset in Coperncius Browser](https://link.dataspace.copernicus.eu/r8ec)**
 
 {{< include ../../../header.qmd >}}
 
 ### Collection ID
 | Version | ID |
 |:---------:|----|
-| - | 46db50f9-3de8-48ca-900f-fb87addc620a |
+| None | 46db50f9-3de8-48ca-900f-fb87addc620a |
 | RT0 | 3dc7fbf5-788f-483e-977e-2b56861c0f22|
 | RT1 |  c14ecd63-b276-495d-8ad5-1b4c25ee538b|
 | RT2 |  a9b7f384-668a-4cef-9e45-108605a12329|
@@ -37,5 +37,6 @@ Quantifies the fraction of the solar radiation absorbed by live plants for photo
 | LENGTH_BEFORE | Length in days of semi-period before D |  - | UINT8  | 15 - 210 | 1 | 0 |
 | LENGTH_AFTER  | Length in days of semi-period after D |  - | UINT8  | 0 - 60 | 1 | 0 |
 
+
 ## Evalscript
-[Custom script repository](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/vegetation/vegetation-properties/fapar_global_300m_10daily_v1)
+To use this dataset with sentinel hub APis you can use the examples provided in the [Sentinel hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/vegetation/vegetation-properties/fapar_global_300m_10daily_v1)
