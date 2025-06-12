@@ -1,0 +1,28 @@
+---
+title: SWI 2015-present (raster 1 km), Europe, daily – version 1
+---
+### About
+Quantifies the moisture condition at various depths in the soil. Daily observations are available for the continental Europe in the spatial resolution of 1 km and with the temporal extent from January 2015 to present.
+
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-12T14:36:02.078437&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+
+{< include _header.qmd >}
+
+### Collection ID
+| Version | ID |
+|:---------:|----|
+|None|bd02588b-7236-4b1e-9480-aeae7dce3c7a
+
+### Date range
+
+2015-present
+
+### Bands
+
+| Name          | Description  |   Units |  Source format | Range | Scaling | Offset |
+|---------------|--------------|---------|----------------|-------|---------|--------|
+|QFLAG002|Quality flag for different time lengths|%|UINT8|0-100|1/2|0|
+
+### Evalscript
+
+To use this dataset with sentinel hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/soil-moisture/soil-water-index/swi_europe_1km_daily_v1)

@@ -1,0 +1,28 @@
+---
+title: SSM 2014-present (raster 1 km), Europe, daily – version 1
+---
+### About
+Provides information on the relative water content of the top few centimeters soil, describing how wet or dry the soil is in its topmost layer, expressed in percent saturation.
+
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-12T14:36:02.078608&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+
+{< include _header.qmd >}
+
+### Collection ID
+| Version | ID |
+|:---------:|----|
+|None|df9e9783-f580-433a-b798-3acd2760b94e
+
+### Date range
+
+2014-present
+
+### Bands
+
+| Name          | Description  |   Units |  Source format | Range | Scaling | Offset |
+|---------------|--------------|---------|----------------|-------|---------|--------|
+|SSM|Provides information on the relative water content of the top few centimeters soil, describing how wet or dry the soil is in its topmost layer, expressed in percent saturation.|%|UINT8|0-100|1/2|0|
+
+### Evalscript
+
+To use this dataset with sentinel hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/soil-moisture/surface-soil-moisture/ssm_europe_1km_daily_v1)

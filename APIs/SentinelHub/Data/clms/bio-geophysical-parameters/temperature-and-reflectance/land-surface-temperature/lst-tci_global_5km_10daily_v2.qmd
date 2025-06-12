@@ -1,0 +1,28 @@
+---
+title: LST (TCI) 2021-present (raster 5 km), global, 10-daily – version 2
+---
+### About
+Statistical overview of the land surface temperature over each 10-day compositing period
+
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-12T14:36:02.080068&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+
+{< include _header.qmd >}
+
+### Collection ID
+| Version | ID |
+|:---------:|----|
+|None|d216f9f3-a7bd-45d6-bdd3-820f8223ebc4
+
+### Date range
+
+2021-present
+
+### Bands
+
+| Name          | Description  |   Units |  Source format | Range | Scaling | Offset |
+|---------------|--------------|---------|----------------|-------|---------|--------|
+|TCI|Thermal Condition Index for the 10-day composite period|-|INT16|0-1|1/10000|0|
+
+### Evalscript
+
+To use this dataset with sentinel hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/temperature-and-reflectance/land-surface-temperature/lst-tci_global_5km_10daily_v2)

@@ -1,0 +1,28 @@
+---
+title: LST Daily Cycle 2017-2021 (raster 5 km), global, 10-daily – version 1
+---
+### About
+Provides a statistical overview of the land surface temperature daily cycle for each 10-day compositing period and every geostationary sensor image pixel.
+
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-12T14:36:02.080325&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+
+{< include _header.qmd >}
+
+### Collection ID
+| Version | ID |
+|:---------:|----|
+|None|3069a818-ac7f-4b8d-9369-22f91887fd02
+
+### Date range
+
+January 2017 - January2021
+
+### Bands
+
+| Name          | Description  |   Units |  Source format | Range | Scaling | Offset |
+|---------------|--------------|---------|----------------|-------|---------|--------|
+|MEDIAN|Median LST values observed during the 10-day compositing period|K|INT16|203.15-353.15|1/100|273.15|
+
+### Evalscript
+
+To use this dataset with sentinel hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/temperature-and-reflectance/land-surface-temperature/lst-daily-cycle_global_5km_10daily_v1)

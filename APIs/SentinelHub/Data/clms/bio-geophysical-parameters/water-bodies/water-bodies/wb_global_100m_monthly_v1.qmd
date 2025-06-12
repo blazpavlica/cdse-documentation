@@ -1,0 +1,28 @@
+---
+title: Water Bodies 2020-present (raster 100 m), global, monthly – version 1
+---
+### About
+Detects the areas covered by inland water
+
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-12T14:36:02.079037&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+
+{< include _header.qmd >}
+
+### Collection ID
+| Version | ID |
+|:---------:|----|
+|None|69577a6b-80e0-4507-8b99-57b5ef167d41
+
+### Date range
+
+2020-present
+
+### Bands
+
+| Name          | Description  |   Units |  Source format | Range | Scaling | Offset |
+|---------------|--------------|---------|----------------|-------|---------|--------|
+|WB|Water Bodies|-|UINT8|0-255|1|0|
+
+### Evalscript
+
+To use this dataset with sentinel hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/water-bodies/water-bodies/wb_global_100m_monthly_v1)

@@ -1,0 +1,9 @@
+---
+title: lake-water-quality
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: lake-water-quality/*
+---

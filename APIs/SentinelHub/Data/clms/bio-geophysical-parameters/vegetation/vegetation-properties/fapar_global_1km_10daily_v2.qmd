@@ -1,0 +1,32 @@
+---
+title: FAPAR 1999-2020 (raster 1 km), global, 10-daily – version 2
+---
+### About
+FAPAR quantifies the fraction of the solar radiation absorbed by live plants for photosynthesis. Every 10-days estimates are available at global scale in the spatial resolution of about 1 km covering the period from 1999 to June 2020 from SPOT/VEGETATION and PROBA-V data.
+
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-12T14:36:02.076117&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+
+{< include _header.qmd >}
+
+### Collection ID
+| Version | ID |
+|:---------:|----|
+|None|288befb5-6ce6-4aae-9fb8-e6e4531216a1
+|RT0|c59b1cb0-50ef-4737-a863-463c1056c66c
+|RT1|e9a0a9ec-5614-4747-bcdb-e4942d5af0b2
+|RT2|8bf7f8a0-09d5-4167-a53b-9e3f6676a488
+|RT6|990a6aca-4a63-4d47-94e2-6b948af1b603
+
+### Date range
+
+1999-2020
+
+### Bands
+
+| Name          | Description  |   Units |  Source format | Range | Scaling | Offset |
+|---------------|--------------|---------|----------------|-------|---------|--------|
+|FAPAR|Fraction of Absorbed PAR|-|UINT8|0-0.94|1/250|0|
+
+### Evalscript
+
+To use this dataset with sentinel hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/vegetation/vegetation-properties/fapar_global_1km_10daily_v2)

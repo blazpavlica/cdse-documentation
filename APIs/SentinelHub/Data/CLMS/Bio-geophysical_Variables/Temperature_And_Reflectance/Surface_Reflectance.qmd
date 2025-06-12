@@ -1,6 +1,0 @@
----
-title: Surface reflectance
----
-## Overview
-
-Provides  spectral atmospherically-corrected surface reflectances from Sentinel-3 OLCI and SLSTR sensors observations. Uncertainties are associated to the reflectance values. The data are available at global scale in the spatial resolution of 300 m and cover the period from June 2018 to the present.

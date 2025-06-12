@@ -1,0 +1,9 @@
+---
+title: vegetation-indices
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: vegetation-indices/*
+---

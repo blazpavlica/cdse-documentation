@@ -1,0 +1,9 @@
+---
+title: global-dynamic-land-cover
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: global-dynamic-land-cover/*
+---

@@ -1,0 +1,9 @@
+---
+title: river-and-lake-ice-extent
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: river-and-lake-ice-extent/*
+---

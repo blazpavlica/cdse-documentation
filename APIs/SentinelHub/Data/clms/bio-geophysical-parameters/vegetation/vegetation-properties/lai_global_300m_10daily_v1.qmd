@@ -1,0 +1,32 @@
+---
+title: LAI 2014-present (raster 300 m), global, 10-daily – version 1
+---
+### About
+Defined as half the total area of green elements of the canopy per unit horizontal ground area. Every 10-days estimates are available in near real time at global scale in the spatial resolution of about 300 m from January 2014 to June 2020 based upon PROBA-V data with version 1.0 and from July 2020 onwards based upon Sentinel-3/OLCI data with version 1.1.
+
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-12T14:36:02.076559&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+
+{< include _header.qmd >}
+
+### Collection ID
+| Version | ID |
+|:---------:|----|
+|None|b6317fa9-c341-4c7f-a81f-24615f57c868
+|RT0|6c90d3aa-4e57-4f08-a837-23ba6df3429a
+|RT1|2cb83160-105c-4072-9fb3-51e47ddc9f1a
+|RT2|8d7a4caa-b58c-4658-9aa0-ca155b670662
+|RT6|559b2871-ddbd-41f9-8ab0-5242a454e411
+
+### Date range
+
+2014-present
+
+### Bands
+
+| Name          | Description  |   Units |  Source format | Range | Scaling | Offset |
+|---------------|--------------|---------|----------------|-------|---------|--------|
+|LAI|Leaf Area Index|-|UINT8|0-7|1/30|0|
+
+### Evalscript
+
+To use this dataset with sentinel hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/vegetation/vegetation-properties/lai_global_300m_10daily_v1)

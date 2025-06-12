@@ -1,0 +1,9 @@
+---
+title: soil-water-index
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: soil-water-index/*
+---

@@ -1,0 +1,9 @@
+---
+title: vegetation
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: vegetation/*
+---

@@ -1,0 +1,9 @@
+---
+title: bio-geophysical-parameters
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: bio-geophysical-parameters/*
+---

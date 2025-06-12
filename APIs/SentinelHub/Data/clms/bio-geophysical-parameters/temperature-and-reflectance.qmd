@@ -1,0 +1,9 @@
+---
+title: temperature-and-reflectance
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: temperature-and-reflectance/*
+---

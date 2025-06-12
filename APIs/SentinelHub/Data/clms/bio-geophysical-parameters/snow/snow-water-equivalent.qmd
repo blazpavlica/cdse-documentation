@@ -1,0 +1,9 @@
+---
+title: snow-water-equivalent
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: snow-water-equivalent/*
+---

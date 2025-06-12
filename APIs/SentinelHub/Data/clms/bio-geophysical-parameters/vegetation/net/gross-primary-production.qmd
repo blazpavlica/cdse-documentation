@@ -1,0 +1,9 @@
+---
+title: net/gross-primary-production
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: net/gross-primary-production/*
+---

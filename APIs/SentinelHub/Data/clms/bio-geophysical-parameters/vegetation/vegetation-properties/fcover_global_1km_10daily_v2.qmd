@@ -1,0 +1,32 @@
+---
+title: FCOVER 1999-2020 (raster 1 km), global, 10-daily – version 2
+---
+### About
+FCOVER corresponds to the fraction of ground covered by green vegetation. It quantifies the spatial extent of the vegetation. Every 10-days estimates are available at global scale in the spatial resolution of about 1 km covering the period from 1999 to June 2020 from SPOT/VEGETATION and PROBA-V data.
+
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-12T14:36:02.076288&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+
+{< include _header.qmd >}
+
+### Collection ID
+| Version | ID |
+|:---------:|----|
+|None|44f54dfc-a372-4a22-988b-4b054880bb2a
+|RT0|8f6a4b38-934c-4363-ac20-8427f20760c0
+|RT1|3e88055a-b8c3-4c68-acc6-4b93509b1f14
+|RT2|80fc6bcf-bcdc-4ede-94f8-b47d096d734c
+|RT6|c58a4f07-86b9-4e62-b955-808cdc820599
+
+### Date range
+
+1999-2020
+
+### Bands
+
+| Name          | Description  |   Units |  Source format | Range | Scaling | Offset |
+|---------------|--------------|---------|----------------|-------|---------|--------|
+|FCOVER|Fraction of green vegetation cover|-|UINT8|0-1|1/250|0|
+
+### Evalscript
+
+To use this dataset with sentinel hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/vegetation/vegetation-properties/fcover_global_1km_10daily_v2)

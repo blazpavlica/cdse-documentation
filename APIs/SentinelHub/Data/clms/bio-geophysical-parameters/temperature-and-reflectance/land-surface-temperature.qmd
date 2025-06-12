@@ -1,0 +1,9 @@
+---
+title: land-surface-temperature
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: land-surface-temperature/*
+---

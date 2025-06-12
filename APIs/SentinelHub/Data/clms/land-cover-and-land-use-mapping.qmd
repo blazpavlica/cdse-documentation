@@ -1,0 +1,9 @@
+---
+title: land-cover-and-land-use-mapping
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: land-cover-and-land-use-mapping/*
+---

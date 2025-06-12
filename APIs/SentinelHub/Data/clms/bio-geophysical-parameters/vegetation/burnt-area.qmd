@@ -1,0 +1,9 @@
+---
+title: burnt-area
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: burnt-area/*
+---

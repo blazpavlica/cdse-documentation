@@ -1,0 +1,9 @@
+---
+title: vegetation-phenology-and-productivity-parameters
+listing:
+    type: table
+    sort: false
+    fields: [title, description]
+    sort-ui: false
+    contents: vegetation-phenology-and-productivity-parameters/*
+---
