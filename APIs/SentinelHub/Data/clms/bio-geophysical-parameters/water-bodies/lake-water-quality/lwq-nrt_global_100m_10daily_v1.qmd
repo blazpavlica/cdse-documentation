@@ -1,28 +1,51 @@
 ---
 title: LWQ 2019-2024 (raster 100 m), global, 10-daily – version 1
 ---
-### About
+## About
+[Official documentation](https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-v1-0-100m)
+
 Provides semi-continuous observations for a large number of medium and large-sized lakes.
 
-[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-12T14:36:02.079640&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-13T11:41:00.880784&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
 
-{< include _header.qmd >}
+{{< include /APIs/SentinelHub/Data/clms/_header.qmd >}}
 
 ### Collection ID
-| Version | ID |
-|:---------:|----|
-|None|8894d46b-a451-4abf-838e-292b4bcacae1
 
-### Date range
+8894d46b-a451-4abf-838e-292b4bcacae1
+
+## Date range
 
 2019-2024
 
-### Bands
+## Bands
 
 | Name          | Description  |   Units |  Source format | Range | Scaling | Offset |
 |---------------|--------------|---------|----------------|-------|---------|--------|
-|=SUBSTITUTE(Z499,"LWQ100-","")|Number of days from the start of the sensing period until the first cloud-free observation|Days since the start of the observation period|FLOAT32|0-10|1|0|
+|FOBS|Number of days from the start of the sensing period until the first cloud-free observation|Days since the start of the observation period|FLOAT32|0-10|1|0|
+|LOBS|Number of days from the start of the sensing period until the last cloud-free observation|Days since the start of the observation period|FLOAT32|0-10|1|0|
+|NOBS|Number of observations|-|INT16|0--|1|0|
+|RW1375|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW1610|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW2190|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW443|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW490|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW560|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW665|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW705|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW740|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW783|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW842|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW865|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|RW945|Fully normalised water-leaving reflectance|-|FLOAT32|0-1|1|0|
+|TMEAN|Mean turbidity|NTU|FLOAT32|0--|1|0|
+|TOBS|Trophic State Index|-|FLOAT32|1-11|1|0|
+|TSI|Mean of total suspended matter|-|FLOAT32|0-100|1|0|
 
-### Evalscript
+## Evalscript
 
-To use this dataset with sentinel hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/water-bodies/lake-water-quality/lwq-nrt_global_100m_10daily_v1)
+To use this dataset with Sentinel Hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/water-bodies/lake-water-quality/lwq-nrt_global_100m_10daily_v1)
+
+An evalscript (or "custom script") is a piece of Javascript code which defines how the data shall be processed by Sentinel Hub and what values the service shall return. It is a required part of any [process](/APIs/SentinelHub/Process.qmd), [batch processing](/APIs/SentinelHub/Batch.qmd) or [OGC request](/APIs/SentinelHub/OGC.qmd).
+
+Evalscripts can use any JavaScript function or language structures, along with certain [utility functions](/APIs/SentinelHub/Evalscript/Functions.qmd) we provide for your convenience. For running evalscripts we use the [Chrome V8](https://v8.dev/){target="_blank"} JavaScript engine.

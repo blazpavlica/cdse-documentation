@@ -207,14 +207,6 @@ website:
                     text: Sentinel-3 SYN L2
                   - href: "APIs/SentinelHub/Data/S5PL2.qmd"
                     text: Sentinel-5P L2
-                  - href: "APIs/SentinelHub/Data/DEM.qmd"
-                    text: Digital Elevation Model (DEM) Data
-                  - href: "APIs/SentinelHub/Data/Byoc.qmd"
-                    text: Bring Your Own COG / Batch
-                  - href: "APIs/SentinelHub/Data/Zarr.qmd"
-                    text: Zarr
-                  - href: "APIs/SentinelHub/Data/DataFusion.qmd"
-                    text: Data Fusion
                   - section: "CLMS"
                     href: "APIs/SentinelHub/Data/CLMS.qmd"
                     # clms generated menu
@@ -258,15 +250,15 @@ website:
                                   - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/vegetation-properties/fcover_global_300m_10daily_v1.qmd
                                     text: FCOVER 2014-present (raster 300 m), global, 10-daily – version 1
                               - section: Dry/Gross Dry Matter Productivity
-                                href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/dry/gross-dry-matter-productivity.qmd
+                                href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/dry-gross-dry-matter-productivity.qmd
                                 contents:
-                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/dry/gross-dry-matter-productivity/dmp_global_1km_10daily_v2.qmd
+                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/dry-gross-dry-matter-productivity/dmp_global_1km_10daily_v2.qmd
                                     text: DMP 1999-2020 (raster 1 km), global, 10-daily – version 2
-                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/dry/gross-dry-matter-productivity/dmp_global_300m_10daily_v1_RT0.qmd
+                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/dry-gross-dry-matter-productivity/dmp_global_300m_10daily_v1_RT0.qmd
                                     text: DMP 2014-present (raster 300 m), global, 10-daily – version 1
-                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/dry/gross-dry-matter-productivity/gdmp_global_1km_10daily_v2.qmd
+                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/dry-gross-dry-matter-productivity/gdmp_global_1km_10daily_v2.qmd
                                     text: GDMP 1999-2020 (raster 1 km), global, 10-daily – version 2
-                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/dry/gross-dry-matter-productivity/gdmp_global_300m_10daily_v1_RT0.qmd
+                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/dry-gross-dry-matter-productivity/gdmp_global_300m_10daily_v1_RT0.qmd
                                     text: GDMP 2014-present (raster 300 m), global, 10-daily – version 1
                               - section: Burnt Area
                                 href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/burnt-area.qmd
@@ -276,11 +268,11 @@ website:
                                   - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/burnt-area/ba_global_300m_monthly_v3.qmd
                                     text: Burnt Area 2019 - present (raster 300 m), global, monthly - version 3.1
                               - section: Net/Gross Primary Production
-                                href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/net/gross-primary-production.qmd
+                                href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/net-gross-primary-production.qmd
                                 contents:
-                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/net/gross-primary-production/npp_global_300m_10daily_v1_RT0.qmd
+                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/net-gross-primary-production/npp_global_300m_10daily_v1_RT0.qmd
                                     text: NPP 2023-present (raster 300 m), global, 10-daily – version 1
-                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/net/gross-primary-production/gpp_global_300m_10daily_v1_RT0.qmd
+                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/net-gross-primary-production/gpp_global_300m_10daily_v1_RT0.qmd
                                     text: GPP 2023-present (raster 300 m), global, 10-daily – version 1
                               - section: Vegetation Phenology and Productivity Parameters
                                 href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/vegetation/vegetation-phenology-and-productivity-parameters.qmd
@@ -295,7 +287,7 @@ website:
                                 contents:
                                   - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/soil-moisture/soil-water-index/swi_global_12.5km_daily_v3.qmd
                                     text: SWI 2007-present (raster 12.5 km), global, daily – version 3
-                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/soil-moisture/soil-water-index/swi_global_14.5km_10daily_v3.qmd
+                                  - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/soil-moisture/soil-water-index/swi_global_12.5km_10daily_v3.qmd
                                     text: SWI 2007-present (raster 12.5 km), global, 10-daily – version 3
                                   - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/soil-moisture/soil-water-index/swi_europe_1km_daily_v1.qmd
                                     text: SWI 2015-present (raster 1 km), Europe, daily – version 1
@@ -311,7 +303,7 @@ website:
                                 href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/water-bodies/water-bodies.qmd
                                 contents:
                                   - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/water-bodies/water-bodies/wb_global_1km_10daily_v2.qmd
-                                    text: "-"
+                                    text: wb
                                   - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/water-bodies/water-bodies/wb_global_300m_10daily_v1.qmd
                                     text: Water Bodies 2014-2020 (raster 300 m), global, 10-daily – version 1
                                   - href: APIs/SentinelHub/Data/clms/bio-geophysical-parameters/water-bodies/water-bodies/wb_global_100m_monthly_v1.qmd
@@ -377,26 +369,15 @@ website:
                             contents:
                               - href: APIs/SentinelHub/Data/clms/land-cover-and-land-use-mapping/global-dynamic-land-cover/lc_global_100m_yearly_v3.qmd
                                 text: Land Cover (raster 100 m), global, yearly – version 3
-                    #       href: "APIs/SentinelHub/Data/CLMS/Bio-geophysical_Variables.qmd"
-                    #       contents:
-                    #           - section: "Temperature_And_Reflectance"
-                    #             href: "APIs/SentinelHub/Data/CLMS/Bio-geophysical_Variables/Temperature_And_Reflectance.qmd"
-                    #             contents:
-                    #                 - href: "APIs/SentinelHub/Data/CLMS/Bio-geophysical_Variables/Temperature_And_Reflectance/Land_Surface_Temperature.qmd"
-                    #                   text: Land Surface temperature
-                    #                 - href: "APIs/SentinelHub/Data/CLMS/Bio-geophysical_Variables/Temperature_And_Reflectance/Surface_Reflectance.qmd"
-                    #                   text: Surface reflectance
-                    #           - section: "Vegetation"
-                    #             href: "APIs/SentinelHub/Data/CLMS/Bio-geophysical_Variables/Vegetation.qmd"
-                    #             contents:
-                    #                 - href: "APIs/SentinelHub/Data/CLMS/Bio-geophysical_Variables/Vegetation/Vegetation_properties/fapar.qmd"
-                    #                   text: FAPAR
-                    #     - section: "Ground_Motion_Data"
-                    #       href: "APIs/SentinelHub/Data/CLMS/Ground_Motion_Data.qmd"
-                    #       contents:
-                    #           - href: "APIs/SentinelHub/Data/CLMS/Ground_Motion_Data/EGMS.qmd"
-                    #             text: EGMS
                     # end of clms generated menu
+                  - href: "APIs/SentinelHub/Data/DEM.qmd"
+                    text: Digital Elevation Model (DEM) Data
+                  - href: "APIs/SentinelHub/Data/Byoc.qmd"
+                    text: Bring Your Own COG / Batch
+                  - href: "APIs/SentinelHub/Data/Zarr.qmd"
+                    text: Zarr
+                  - href: "APIs/SentinelHub/Data/DataFusion.qmd"
+                    text: Data Fusion
               - section: "Evalscript (custom script)"
                 href: "APIs/SentinelHub/Evalscript.qmd"
                 contents:

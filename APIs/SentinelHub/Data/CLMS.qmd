@@ -5,7 +5,7 @@ listing:
     sort: false
     fields: [title, description]
     sort-ui: false
-    contents: CLMS/*
+    contents: clms/*
 ---
 
 ## Overview

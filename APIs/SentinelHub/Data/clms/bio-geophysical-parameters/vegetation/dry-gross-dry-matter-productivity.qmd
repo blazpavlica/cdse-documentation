@@ -1,9 +1,9 @@
 ---
-title: dry/gross-dry-matter-productivity
+title: dry-gross-dry-matter-productivity
 listing:
     type: table
     sort: false
     fields: [title, description]
     sort-ui: false
-    contents: dry/gross-dry-matter-productivity/*
+    contents: dry-gross-dry-matter-productivity/*
 ---
