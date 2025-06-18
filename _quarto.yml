@@ -561,7 +561,7 @@ format:
       file: custom.html
     link-external-icon: true
     link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/(documentation.dataspace.copernicus.eu\/|eu-cdse.github.io\/documentation\/)'
+    link-external-filter: '^(?:http:|https:)\/\/(documentation.dataspace.copernicus.eu\/|eu-cdse.github.io\/documentation\/|blazpavlica.github.io\/)'
     mermaid-format: png
     mermaid:
       theme: neutral
