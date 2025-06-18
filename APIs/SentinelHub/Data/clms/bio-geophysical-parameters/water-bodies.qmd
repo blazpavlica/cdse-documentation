@@ -1,9 +1,9 @@
 ---
-title: water-bodies
+title: Water Bodies
 listing:
     type: table
     sort: false
-    fields: [title, description]
+    fields: [title]
     sort-ui: false
     contents: water-bodies/*
 ---

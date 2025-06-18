@@ -1,9 +1,9 @@
 ---
-title: burnt-area
+title: Burnt Area
 listing:
     type: table
     sort: false
-    fields: [title, description]
+    fields: [title]
     sort-ui: false
     contents: burnt-area/*
 ---

@@ -1,9 +1,9 @@
 ---
-title: lake-water-quality
+title: Lake Water Quality
 listing:
     type: table
     sort: false
-    fields: [title, description]
+    fields: [title]
     sort-ui: false
     contents: lake-water-quality/*
 ---

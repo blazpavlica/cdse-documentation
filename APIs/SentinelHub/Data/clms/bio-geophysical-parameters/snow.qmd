@@ -1,9 +1,9 @@
 ---
-title: snow
+title: Snow
 listing:
     type: table
     sort: false
-    fields: [title, description]
+    fields: [title]
     sort-ui: false
     contents: snow/*
 ---

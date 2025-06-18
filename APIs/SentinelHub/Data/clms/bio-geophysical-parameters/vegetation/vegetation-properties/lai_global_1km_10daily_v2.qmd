@@ -6,18 +6,18 @@ title: LAI 1999-2020 (raster 1 km), global, 10-daily – version 2
 
 Defined as half the total area of green elements of the canopy per unit horizontal ground area. Every 10-days estimates are available at global scale in the spatial resolution of about 1 km covering the period from 1999 to June 2020 from SPOT/VEGETATION and PROBA-V data.
 
-[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-13T11:41:00.876964&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=10&lat=41.82019&lng=12.57866&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_LAI_1KM_10DAILY&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_LAI_1KM_10DAILY) (Click on 'Show latest date' after the page loads.)
 
-{{< include /APIs/SentinelHub/Data/clms/_header.qmd >}}
+{{< include /APIs/SentinelHub/Data/clms/_include.qmd >}}
 
 ### Collection ID
 
 | Version | ID |
 |:---------:|----|
-|None|4e9b1791-0529-4cbe-82dd-ccbd1d346f60
-|RT0|f134123b-9723-45f0-965e-82c2554e4a92
-|RT1|e8416d4f-ef2a-4ae0-ba1b-0ae21f669871
-|RT2|44920340-5ca8-41be-93e0-4f0f1f85c646
+|None|`4e9b1791-0529-4cbe-82dd-ccbd1d346f60`
+|RT0|`f134123b-9723-45f0-965e-82c2554e4a92`
+|RT1|`e8416d4f-ef2a-4ae0-ba1b-0ae21f669871`
+|RT2|`44920340-5ca8-41be-93e0-4f0f1f85c646`
 
 ## Date range
 
@@ -36,8 +36,10 @@ Defined as half the total area of green elements of the canopy per unit horizont
 
 ## Evalscript
 
-To use this dataset with Sentinel Hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/vegetation/vegetation-properties/lai_global_1km_10daily_v2)
+**[Example scripts for this product.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/main/clms/bio-geophysical-parameters/vegetation/vegetation-properties/lai_global_1km_10daily_v2)**
 
-An evalscript (or "custom script") is a piece of Javascript code which defines how the data shall be processed by Sentinel Hub and what values the service shall return. It is a required part of any [process](/APIs/SentinelHub/Process.qmd), [batch processing](/APIs/SentinelHub/Batch.qmd) or [OGC request](/APIs/SentinelHub/OGC.qmd).
+Use the link above to access dedicated Evalscript examples for this product in the Copernicus Data Space Ecosystem Sentinel Hub Custom Scripts repository.
+
+An Evalscript (or “custom script”) is a piece of Javascript code which defines how the data shall be processed by Sentinel Hub and what values the service shall return. It is a required part of any [process](/APIs/SentinelHub/Process.qmd), [batch processing](/APIs/SentinelHub/Batch.qmd) or [OGC request](/APIs/SentinelHub/OGC.qmd).
 
 Evalscripts can use any JavaScript function or language structures, along with certain [utility functions](/APIs/SentinelHub/Evalscript/Functions.qmd) we provide for your convenience. For running evalscripts we use the [Chrome V8](https://v8.dev/){target="_blank"} JavaScript engine.

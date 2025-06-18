@@ -1,9 +1,9 @@
 ---
-title: soil-moisture
+title: Soil Moisture
 listing:
     type: table
     sort: false
-    fields: [title, description]
+    fields: [title]
     sort-ui: false
     contents: soil-moisture/*
 ---

@@ -6,13 +6,13 @@ title: LIE 2024-present (raster 250 m), Europe, daily – version 2
 
 Classifies, in pixels, inland/freshwater bodies
 
-[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=9&lat=46.02622&lng=14.5253&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_FAPAR_300M_10DAILY&fromTime=2014-01-01T00%3A00%3A00.000Z&toTime=2025-06-13T11:41:00.880358&layerId=FAPAR&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE&clmsSelectedPath=Vegetation%20Properties&clmsSelectedCollection=COPERNICUS_CLMS_FAPAR_300M_10DAILY)
+[View this dataset in Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=10&lat=41.82019&lng=12.57866&themeId=DEFAULT-THEME&datasetId=COPERNICUS_CLMS_LIE_250M_DAILY_V2&clmsSelectedPath=River%20and%20Lake%20Ice%20Extent&clmsSelectedCollection=COPERNICUS_CLMS_LIE_250M_DAILY_V2) (Click on 'Show latest date' after the page loads.)
 
-{{< include /APIs/SentinelHub/Data/clms/_header.qmd >}}
+{{< include /APIs/SentinelHub/Data/clms/_include.qmd >}}
 
 ### Collection ID
 
-bf10847c-b070-4205-936c-bc827d958302
+`bf10847c-b070-4205-936c-bc827d958302`
 
 ## Date range
 
@@ -26,8 +26,10 @@ July 2024 - present
 
 ## Evalscript
 
-To use this dataset with Sentinel Hub APIs you can use the examples provided in the [Sentinel Hub custom scripts repository.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/clms/clms/bio-geophysical-parameters/water-bodies/river-and-lake-ice-extent/lie_europe_250m_daily_v2)
+**[Example scripts for this product.](https://github.com/eu-cdse/sentinel-hub-custom-scripts/tree/main/clms/bio-geophysical-parameters/water-bodies/river-and-lake-ice-extent/lie_europe_250m_daily_v2)**
 
-An evalscript (or "custom script") is a piece of Javascript code which defines how the data shall be processed by Sentinel Hub and what values the service shall return. It is a required part of any [process](/APIs/SentinelHub/Process.qmd), [batch processing](/APIs/SentinelHub/Batch.qmd) or [OGC request](/APIs/SentinelHub/OGC.qmd).
+Use the link above to access dedicated Evalscript examples for this product in the Copernicus Data Space Ecosystem Sentinel Hub Custom Scripts repository.
+
+An Evalscript (or “custom script”) is a piece of Javascript code which defines how the data shall be processed by Sentinel Hub and what values the service shall return. It is a required part of any [process](/APIs/SentinelHub/Process.qmd), [batch processing](/APIs/SentinelHub/Batch.qmd) or [OGC request](/APIs/SentinelHub/OGC.qmd).
 
 Evalscripts can use any JavaScript function or language structures, along with certain [utility functions](/APIs/SentinelHub/Evalscript/Functions.qmd) we provide for your convenience. For running evalscripts we use the [Chrome V8](https://v8.dev/){target="_blank"} JavaScript engine.

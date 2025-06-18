@@ -1,9 +1,9 @@
 ---
-title: snow-cover-extent
+title: Snow Cover Extent
 listing:
     type: table
     sort: false
-    fields: [title, description]
+    fields: [title]
     sort-ui: false
     contents: snow-cover-extent/*
 ---
